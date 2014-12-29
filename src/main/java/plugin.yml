@@ -1,0 +1,12 @@
+name: FireworkConfigurator
+main: de.sabbertran.fireworkconfigurator.FireworkConfigurator
+version: 1.0
+website: http://www.sabbertran.de/
+author: Sabbertran
+description: An inventory-based firework configurator
+commands:
+  firework:
+    description: Firework Command
+    usage: "/firework"
+    aliases: [fw]
+    
