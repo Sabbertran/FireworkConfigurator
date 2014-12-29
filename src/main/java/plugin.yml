@@ -1,6 +1,6 @@
 name: FireworkConfigurator
 main: de.sabbertran.fireworkconfigurator.FireworkConfigurator
-version: 1.0
+version: 1.0.1
 website: http://www.sabbertran.de/
 author: Sabbertran
 description: An inventory-based firework configurator
