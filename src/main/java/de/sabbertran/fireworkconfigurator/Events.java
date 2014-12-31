@@ -231,7 +231,9 @@ public class Events implements Listener
                 }
                 if (ev.getCurrentItem().getType() == Material.FIREWORK)
                 {
-                    p.getInventory().addItem(ev.getCurrentItem());
+                    ItemStack rocket = ev.getCurrentItem();
+                    rocket.setAmount(main.getStacksize());
+                    p.getInventory().addItem(rocket);
                     p.closeInventory();
                     main.getFirework().getEffects().remove(p);
                     main.getFirework().getMainColors().remove(p);
